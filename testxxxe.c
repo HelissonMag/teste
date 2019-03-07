@@ -23,9 +23,4 @@ int Max_Subarray_Sum(int arr[],int n)
 }
 
 
-int main(int argc, char const *argv[])
-{
-	int arr[] = {3,-2,5,-1};
-	cout<<Max_Subarray_Sum(arr,4)<<"\n";
-	return 0;
-}
+
