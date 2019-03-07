@@ -5,9 +5,6 @@ using namespace std;
 
 int Max_Subarray_Sum(int arr[],int n)	
 {
-	if(n==1)
-	{
-		return arr[0];
 	}
 	int m = n/2;
 	int left_MSS = Max_Subarray_Sum(arr,m);
